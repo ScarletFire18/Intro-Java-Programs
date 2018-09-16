@@ -44,6 +44,7 @@ public class SalesReader
         line = inputFile.nextLine();
        
       return lineRead;
+      
    }
 
    /**
@@ -74,6 +75,12 @@ public class SalesReader
       return average;
    }   
    
+   
+      /**
+      The getWeeklySum method calculates the sum
+      of the last set of test scores read from the file.
+      @return The sum.
+   */
    public double getWeeklySum()
    {
       double sum = 0;    // Accumulator
