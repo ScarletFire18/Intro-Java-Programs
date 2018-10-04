@@ -2,15 +2,13 @@ public class Customer extends Person
    {
    private String customerNumber;
 	private Boolean mailingList;
-  
-   
+     
    public Customer(String n, String a, String p, String c, Boolean m)
       {
          super(n,a,p);
          customerNumber = c;
          mailingList = m;
       }
-
 
    public String getCustomerNumber()
       {
@@ -21,6 +19,4 @@ public class Customer extends Person
       {
          return this.mailingList;
       }
- 
-
    }
